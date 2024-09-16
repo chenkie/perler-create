@@ -45,7 +45,7 @@ const Board = () => {
 
         // Draw the beads
         beadData.forEach((bead: any) => {
-          ctx.fillStyle = bead.color;
+          ctx.fillStyle = bead.c;
           ctx.fillRect(
             Math.floor(bead.x * beadWidth),
             Math.floor(bead.y * beadHeight),

@@ -10,7 +10,7 @@ I have this data schema to represent positions and colors:
 type BoardMark = {
   x: number;
   y: number;
-  color: string; // hex code
+  c: string; // hex code
 }
 
 type BoardMarks = BoardMark[];
